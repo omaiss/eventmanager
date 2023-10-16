@@ -222,7 +222,7 @@ contents = CSV.open(
 # results = template.result(binding)
 # puts results
 
-
+# Final code
 def clean_zipcode(zipcode)
   zipcode.to_s.rjust(5,"0")[0..4]
 end
