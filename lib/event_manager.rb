@@ -5,7 +5,7 @@ require 'erb'
 
 # Look for a solution before making a solution
 
-#Reading the whole file in one go
+# Reading the whole file in one go
 # if File.exist? "event_attendees.csv"
 #   contents = File.read('event_attendees.csv')
 #   puts contents
